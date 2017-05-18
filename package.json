@@ -38,7 +38,7 @@
     "tslint-eslint-rules": "4.0.0"
   },
   "devDependencies": {
-    "@types/gulp": "^4.0.2",
+    "@types/gulp": "^4.0.3",
     "gulp": "^3.9.1",
     "gulp-tslint": "^8.0.0",
     "gulp-util": "^3.0.7",
