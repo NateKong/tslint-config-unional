@@ -10,8 +10,7 @@
     "strict.js"
   ],
   "scripts": {
-    "test": "gulp",
-    "test": "tsc && ava \"spec/avaTest/*\"",
+    "test": "tsc && ava \"spec/*\"",
     "test:watch": "tsc --watch & ava --watch"
   },
   "repository": {
@@ -40,12 +39,7 @@
     "tslint-eslint-rules": "4.1.0"
   },
   "devDependencies": {
-    "@types/gulp": "^4.0.2",
     "ava": "^0.21.0",
-    "gulp": "^3.9.1",
-    "gulp-tslint": "^8.0.0",
-    "gulp-util": "^3.0.7",
-    "through": "^2.3.8",
     "tslint": "^5.2.0",
     "typescript": "^2.3.2"
   }
