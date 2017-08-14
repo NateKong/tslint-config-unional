@@ -10,7 +10,8 @@
     "strict.js"
   ],
   "scripts": {
-    "test": "tsc && ava \"spec/avaTest/*.js\"",
+    "test": "gulp",
+    "test": "tsc && ava \"spec/avaTest/*\"",
     "test:watch": "tsc --watch & ava --watch"
   },
   "repository": {
@@ -18,6 +19,8 @@
     "url": "https://github.com/unional/typescript"
   },
   "keywords": [
+    "tslint",
+    "tslintconfig",
     "config",
     "typescript",
     "styleguide",
@@ -29,8 +32,21 @@
     "url": "https://github.com/unional/typescript/issues"
   },
   "homepage": "https://github.com/unional/typescript",
+  "peerDependencies": {
+    "tslint": ">=5.0.0"
+  },
+  "dependencies": {
+    "tslint-config-standard": "6.0.0",
+    "tslint-eslint-rules": "4.1.0"
+  },
   "devDependencies": {
+    "@types/gulp": "^4.0.2",
     "ava": "^0.21.0",
+    "gulp": "^3.9.1",
+    "gulp-tslint": "^8.0.0",
+    "gulp-util": "^3.0.7",
+    "through": "^2.3.8",
+    "tslint": "^5.2.0",
     "typescript": "^2.3.2"
   }
 }
