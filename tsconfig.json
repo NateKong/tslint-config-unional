@@ -5,9 +5,7 @@
     "noUnusedParameters": false,
     "target": "es2015"
   },
-	"files": [
-        "spec/avaTest/index.ts",
-        "spec/avaTest/standard.ts",
-        "spec/avaTest/strict.ts"
-    ]
+  "include": [
+    "spec/avaTest/*"
+  ]
 }
