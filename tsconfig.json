@@ -6,8 +6,8 @@
     "target": "es2015"
   },
 	"files": [
-        "specs/avaTest/index.ts",
-        "specs/avaTest/standard.ts",
-        "specs/avaTest/strict.ts"
+        "spec/avaTest/index.ts",
+        "spec/avaTest/standard.ts",
+        "spec/avaTest/strict.ts"
     ]
 }
