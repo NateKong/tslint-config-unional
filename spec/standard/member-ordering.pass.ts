@@ -1,3 +1,5 @@
+import test from 'ava';
+
 /* tslint:disable:no-empty no-unused-variable */
 // Disable member ordering so related methods/properties can be grouped together.
 class MemberOrderingStandard {
@@ -11,3 +13,7 @@ class MemberOrderingStandard {
   someFunction(): void { }
   private somePrivateFunction(): void { }
 }
+
+test.skip('member-ordering', t=>{
+	
+});

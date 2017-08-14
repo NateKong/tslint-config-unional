@@ -1,3 +1,4 @@
+import test from 'ava';
 /* tslint:disable:no-unused-variable */
 
 // good
@@ -12,3 +13,7 @@
 function commentFormat(p1: string, p2 = 2): boolean {
   return false;
 }
+
+test('comment-format', t => {
+	t.false(commentFormat('string', 2));
+});

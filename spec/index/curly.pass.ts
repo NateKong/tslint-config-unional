@@ -1,3 +1,5 @@
+import test from 'ava';
+
 let curly = 3;
 
 if (curly) {
@@ -9,3 +11,8 @@ else if (curly - 1) {
 else {
   curly = 4;
 }
+
+test.skip('curly', t => {
+	//create test
+	t.pass();
+});
