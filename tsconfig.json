@@ -6,6 +6,8 @@
     "target": "es2015"
   },
   "include": [
-    "spec/avaTest/*"
+    "spec/avaTest/index/*",
+    "spec/avaTest/standard/*",
+    "spec/avaTest/strict/*"
   ]
 }
