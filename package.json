@@ -10,7 +10,8 @@
     "strict.js"
   ],
   "scripts": {
-    "test": "gulp"
+    "test": "tsc && ava \"test/*.js\"",
+    "test:watch": "tsc --watch & ava --watch"
   },
   "repository": {
     "type": "git",
@@ -39,6 +40,7 @@
   },
   "devDependencies": {
     "@types/gulp": "^4.0.2",
+    "ava": "^0.21.0",
     "gulp": "^3.9.1",
     "gulp-tslint": "^8.0.0",
     "gulp-util": "^3.0.7",
