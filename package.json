@@ -10,7 +10,7 @@
     "strict.js"
   ],
   "scripts": {
-    "test": "tsc && ava \"spec/*\"",
+    "test": "tsc && ava \"spec/ava/*\"",
     "test:watch": "tsc --watch & ava --watch"
   },
   "repository": {

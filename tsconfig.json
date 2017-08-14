@@ -6,8 +6,8 @@
     "target": "es2015"
   },
   "include": [
-    "spec/index/*.ts",
-    "spec/standard/*.ts",
-    "spec/strict/*.ts"
+    "spec/ava/index/*.ts",
+    "spec/ava/standard/*.ts",
+    "spec/ava/strict/*.ts"
   ]
 }
