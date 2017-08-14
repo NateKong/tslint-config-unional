@@ -7,5 +7,5 @@ function foo(a) {
 }
 ava_1.default.failing('typedef: call-signature', t => {
     const num = foo('string');
-    t.is(num, 'string');
+    t.is(typeof (num), typeof ('string'));
 });

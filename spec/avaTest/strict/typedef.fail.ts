@@ -7,5 +7,5 @@ function foo(a: string) {
 
 test.failing('typedef: call-signature', t => {
 	const num = foo('string');
-	t.is(num, typeof('string');
+	t.is(typeof(num), typeof('string'));
 })

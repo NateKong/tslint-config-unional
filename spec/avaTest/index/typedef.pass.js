@@ -1,18 +1,17 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-/* tslint:disable:no-unused-variable */
-const gulp = require("gulp");
-// arrow function don't need to be typed
-gulp.task('test', (done) => {
-    // do stuff...
-});
+const ava_1 = require("ava");
 // typedef: call-signature
 function foo(a) {
-    return 123;
+    return '123';
 }
 // typedef: member-variable-declaration
 class Foo {
     constructor() {
-        this.somthing = 1;
+        this.something = 1;
     }
 }
+ava_1.default('typedef', t => {
+    const a = foo('string');
+    t.is(typeof (a), typeof ('string'));
+});

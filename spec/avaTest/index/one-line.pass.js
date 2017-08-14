@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const ava_1 = require("ava");
 let oneLine = 2;
 if (oneLine) {
     oneLine = 1;
@@ -14,3 +17,8 @@ catch (e) {
 finally {
     oneLine = 4;
 }
+//skip
+ava_1.default.skip('one-line', t => {
+    //create test
+    t.pass();
+});

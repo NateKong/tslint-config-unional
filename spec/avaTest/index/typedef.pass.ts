@@ -1,17 +1,16 @@
-/* tslint:disable:no-unused-variable */
-import * as gulp from 'gulp';
-
-// arrow function don't need to be typed
-gulp.task('test', (done) => {
-  // do stuff...
-});
+import test from 'ava';
 
 // typedef: call-signature
 function foo(a: string) {
-  return 123;
+  return '123';
 }
 
 // typedef: member-variable-declaration
 class Foo {
-  somthing = 1;
+  something = 1;
 }
+
+test('typedef', t => {
+	const a = foo('string');
+	t.is(typeof(a), typeof('string'));
+});

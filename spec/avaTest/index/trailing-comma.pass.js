@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const ava_1 = require("ava");
 /* tslint:disable:no-unused-variable */
 let array = [
     {
@@ -21,3 +24,8 @@ let array = [
     }
 ];
 let x = { x: 1, b: 2 };
+//skip
+ava_1.default.skip('trailing-comma', t => {
+    //create test
+    t.pass();
+});

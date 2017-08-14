@@ -1,4 +1,0 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-function veryLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongName() { return 'still good'; }
-exports.veryLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongName = veryLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongName;
