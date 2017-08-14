@@ -1,5 +1,3 @@
-import test from 'ava';
-
 /* tslint:disable:no-empty no-unused-variable */
 class MemberOrdering {
   static someStaticProperty: string;
@@ -13,9 +11,3 @@ class MemberOrdering {
   someFunction(): void { }
   private somePrivateFunction(): void { }
 }
-
-//skip
-test.skip('member-ordering', t => {
-	//create test
-	t.pass();
-});

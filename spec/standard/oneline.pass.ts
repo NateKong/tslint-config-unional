@@ -1,5 +1,3 @@
-import test from 'ava';
-
 let oneLine = 2
 
 if (oneLine) {
@@ -18,7 +16,3 @@ catch (e) {
 finally {
   oneLine = 4
 }
-
-test('oneline', t=> {
-	t.is(oneLine, 4);
-})

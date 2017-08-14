@@ -1,8 +1,4 @@
-import test from 'ava';
-
-test.skip('no-consecutive-blank-lines', t=>{
-	let i = 0;
+let i = 0
 
 
-	i = 1;
-});
+i = 1

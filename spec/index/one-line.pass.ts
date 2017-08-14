@@ -1,5 +1,3 @@
-import test from 'ava';
-
 let oneLine = 2;
 
 if (oneLine) {
@@ -18,9 +16,3 @@ catch (e) {
 finally {
   oneLine = 4;
 }
-
-//skip
-test.skip('one-line', t => {
-	//create test
-	t.pass();
-});

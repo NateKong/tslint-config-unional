@@ -1,5 +1,3 @@
-import test from 'ava';
-
 /* tslint:disable:no-unused-variable */
 let array = [
   {
@@ -24,9 +22,3 @@ let array = [
 ];
 
 let x = { x: 1, b: 2 };
-
-//skip
-test.skip('trailing-comma', t => {
-  //create test
-  t.pass();
-});
