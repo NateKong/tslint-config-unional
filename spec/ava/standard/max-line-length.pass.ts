@@ -1,10 +1,6 @@
 import test from 'ava';
 
+const c = 'still good';//function veryLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongName() { return 'still good'; }
 test('max-line-length', t=>{
-	try{
-		export function veryLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongName() { return 'still good' }
-		t.pass();
-	}catch (e){
-		t.fail();
-	}
+	t.is(c, 'still good');
 });

@@ -12,9 +12,7 @@ function align(
     + param1 + param2 + param3 + param4 
     + param1 + param2 + param3 + param4 
     + param1 + param2 + param3 + param4
-    + param1 + param2 + param3 + param4
-
-    ; (a as any).fun = 2
+    + param1 + param2 + param3 + param4;
 
   return a
 }

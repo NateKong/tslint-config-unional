@@ -5,7 +5,7 @@ const ava_1 = require("ava");
 function foo(a) {
     return 123;
 }
-ava_1.default.failing('typedef: call-signature', t => {
+ava_1.default('typedef: call-signature', t => {
     const num = foo('string');
-    t.is(typeof (num), typeof ('string'));
+    t.not(typeof (num), typeof ('string'));
 });
